@@ -180,21 +180,14 @@
             }
         }
         .boards-btn {
+            margin-inline-end: 0;
             span {
                 display: none;
             }
         }
-        .btn-header-container {
-            &:first-of-type {
-                .btn-header {
-                    &:first-child {
-                        display: none;
-                    }
-                }
-            }
-        }
     }
 }
+
 @include for-mobile-layout {
     .main-header {
         .btn-header-container {

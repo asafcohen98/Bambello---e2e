@@ -69,7 +69,7 @@ class _AppHeader extends Component {
                     <Link to="/workspace" className="btn-header">
                         <HomeIcon />
                     </Link>
-                    <button className="boards-btn btn-header wide-layout flex" onClick={(ev) => this.onOpenPopover(ev, 'BOARDS_SEARCH')}>
+                    <button className="boards-btn btn-header flex" onClick={(ev) => this.onOpenPopover(ev, 'BOARDS_SEARCH')}>
                         <BoardIcon />
                         <span>
                             Boards
